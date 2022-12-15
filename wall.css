@@ -4,13 +4,8 @@
   line-height: 1.5;
 }
 
-:any-link {
-  font-size: max(1em, 44px);
-}
-
 :focus {
-  outline-style: groove;
-  outline-width: thick;
+  outline: thick groove;
 }
 
 .free {
@@ -43,11 +38,6 @@ figcaption {
   display: flex;
   flex-wrap: wrap;
   margin-block-end: 30vh;
-}
-
-q {
-  display: table;
-  quotes: "((" "))";
 }
 
 .wah {
