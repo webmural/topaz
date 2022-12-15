@@ -1,0 +1,23 @@
+mark {
+  background: #ec0;
+  color: #111;
+}
+
+::selection {
+  color: #bae4ea;
+  background: indigo;
+}
+
+:root {
+  color: #111;
+  background: #bae4ea;
+}
+
+:any-link {
+  color: #50a;
+  text-decoration-style: dotted;
+}
+
+:hover {
+  text-decoration-style: solid;
+}
